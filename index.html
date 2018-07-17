@@ -11,15 +11,17 @@
       <h1>PokeDex</h1>
   </div>
 <!-- ====================== -->
+  <div class="empty"></div> <!-- sneaky hack to get pokeDisplay and navbar to be spaced properly -->
+
 <!-- DISPLAY SECTION -->
   <section id='pokeDisplay'>
     <div class="row">
-      <div class="col l3" id='pokeLeft'>
+      <div class="col l4" id='pokeLeft'>
         <span id='pokeName'>Barbaracle</span>
         <span id='pokeId'>#689</span>
         <span id='pokeType'>Rock</span>
       </div>
-      <div class="col l9" id='pokeRight'>
+      <div class="col l8" id='pokeRight'>
         <img src="images/689.png" id="pokeImage">
       </div>
     </div>
@@ -27,6 +29,19 @@
 <!-- ============================= -->
 
 <!-- POKEGRID SECTION -->
+  <section id='pokeGrid'>
+    <div class="row pGrid">
+      <div class="col l4">
+          <img src="images/772.png" id="gridImage">
+      </div>
+      <div class="col l4">
+        <img src="images/772.png" id="gridImage">
+      </div>
+      <div class="col l4">
+        <img src="images/772.png" id="gridImage">
+      </div>
+    </div>
+  </section>
 <!-- ==================================== -->
   <script src='app.js'></script>
 </body>

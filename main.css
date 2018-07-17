@@ -15,6 +15,10 @@ h1{
   border-radius: 15px;
 }
 /* ===================== */
+.empty{
+  padding: 5px;
+  margin: 50px;
+}
 /* POKE DISPLAY */
 #pokeDisplay{
   position: relative;
@@ -22,11 +26,13 @@ h1{
   max-width: 50%;
   height: auto;
   border: 2px solid red;
-  margin: 50px 100px;
+  margin: 10px 100px;
 }
 
 #pokeDisplay #pokeLeft{
   background-color: #aaa;
+  text-align: center;
+  line-height: 5;
 }
 #pokeDisplay #pokeLeft span{
   display: block;
@@ -34,4 +40,20 @@ h1{
 
 #pokeDisplay #pokeImage{
   max-width: 80%;
+  margin-left: 10.5%;
 }
+/* ================== */
+/* POKEGRID */
+.pGrid{
+  max-width: 50%;
+  height: auto;
+  background-color: #689689;
+  padding: 20px 100px;
+  border: 1px solid lightblue;
+}
+
+#pokeGrid div.pGrid #gridImage{
+  max-width: 50px;
+  border: 1px solid blue;
+}
+/* ============================= */
