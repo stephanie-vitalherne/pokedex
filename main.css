@@ -1,1 +1,37 @@
 /* https://wireframe.cc/18BbEK */
+/* NAVBAR */
+.nav{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #33ffaa;
+  border: 2px solid #33ffaa;
+  padding: 15px 500px;
+  border-radius: 15px;
+}
+/* ===================== */
+/* POKE DISPLAY */
+#pokeDisplay{
+  position: relative;
+  left: 17%;
+  max-width: 50%;
+  height: auto;
+  border: 2px solid red;
+  margin: 50px 100px;
+}
+
+#pokeDisplay #pokeLeft{
+  background-color: #aaa;
+}
+#pokeDisplay #pokeLeft span{
+  display: block;
+}
+
+#pokeDisplay #pokeImage{
+  max-width: 80%;
+}
