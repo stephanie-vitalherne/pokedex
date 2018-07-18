@@ -2,4 +2,37 @@ July 17 - Day 16 Notes
 API -exposing the website data to the outside world
 
 July 18 - Day 17 Notes
-SASS - 
+FUNCTION DEALING WITH OBJECTS
+
+users = [];
+totalUsers = 0;
+
+
+//possible pokedex function
+function createUser(name, email){
+  let user = { // keyword let allows variables to be used only within the scope of that area
+  name: name,
+  email: email
+  }
+  totalUsers++;
+  user.push(user);
+}
+
+owner = {
+name: 'Ric Flair',
+employees: users,
+getRoster: function(){
+    return users;
+
+      OR
+
+    return this.employees
+      OR
+
+    console.log(users[0]); //this will allow for grabbing narrow downed data
+    console.log(users[1]);
+  }
+}
+
+//possible object notation
+var p = owner.getRoster().[0].name;
