@@ -16,7 +16,7 @@ h1{
 }
 /* ===================== */
 .empty{
-  padding: 5px;
+  padding: 20px;
   margin: 50px;
 }
 /* POKE DISPLAY */
@@ -57,11 +57,11 @@ h1{
 }
 
 #pokeGrid div.pGrid #gridImage{
-  max-width: 50px;
+  max-width: 80px;
   border: 1px solid blue;
 }
 
-#pokeGrid div{
-  left: 50%;
+.center{
+  justify-content: center;
 }
 /* ============================= */
