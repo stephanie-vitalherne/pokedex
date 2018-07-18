@@ -2,4 +2,4 @@ July 17 - Day 16 Notes
 API -exposing the website data to the outside world
 
 July 18 - Day 17 Notes
-SASS -
+SASS - 
