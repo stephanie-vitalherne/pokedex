@@ -32,7 +32,7 @@ h1{
 #pokeDisplay #pokeLeft{
   background-color: #aaa;
   text-align: center;
-  line-height: 5;
+  line-height: 2;
 }
 #pokeDisplay #pokeLeft span{
   display: block;
@@ -41,6 +41,10 @@ h1{
 #pokeDisplay #pokeImage{
   max-width: 80%;
   margin-left: 10.5%;
+}
+
+.leftStyle{
+  font-family: fantasy;
 }
 /* ================== */
 /* POKEGRID */
