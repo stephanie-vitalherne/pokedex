@@ -1,4 +1,11 @@
 /* https://wireframe.cc/18BbEK */
+/* WHOLE SITE */
+body{
+  background-image: url('images/landing-copy.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ============ */
 /* NAVBAR */
 .nav{
   position: absolute;
@@ -53,12 +60,11 @@ h1{
   height: auto;
   background-color: #689689;
   padding: 20px 100px;
-  border: 1px solid lightblue;
 }
 
 #pokeGrid div.pGrid #gridImage{
   max-width: 80px;
-  border: 1px solid blue;
+  background: blue;
 }
 
 .center{
