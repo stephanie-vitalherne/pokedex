@@ -58,12 +58,12 @@ h1{
 .pGrid{
   max-width: 50%;
   height: auto;
-  background-color: #689689;
+  /* background-color: #689689; */
   padding: 20px 100px;
 }
 
 #pokeGrid div.pGrid #gridImage{
-  max-width: 80px;
+  max-width: 120px;
   background: blue;
 }
 
