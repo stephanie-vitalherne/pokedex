@@ -1,4 +1,3 @@
 pokeCard = document.getElementById('pokeCard');
-function reveal(){
-  pokeCard.classList.remove('hide');
-}
+pokeId = document.getElementById('pokeId');
+pokeName = document.getElementById('pokeName');

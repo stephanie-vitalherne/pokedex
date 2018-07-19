@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Pokedex - Vital-Herne, Stephanie</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link rel="stylesheet" href="main.css" type='text/css'>
 </head>
+
 <body>
 
   <div class="row">
     <div class="col m4"></div>
-    <div class="col m4 hoverable round hide"  id="pokeCard" onload="reveal()">
+    <div class="col m4 hoverable round" id="pokeCard" onload="reveal()">
       <img src="images/cardback.png" id="cardfront">
-      <span id='pokeId'></span>
-      <span id='pokeName'></span>
+      <div id="cardTop">
+        <span id='pokeId'></span>
+        <span id='pokeName'></span>
+        <span id="pokeHp"></span>
+      </div>
+      <div class="cardStat">
+        <span id='length'></span>
+        <span id='width'></span>
+      </div>
+      <div id="cardAb">
+        <p class="move"></p>
+        <p class="move"></p>
+      </div>
     </div>
     <div class="col m4"></div>
   </div>
 
   <script src='app.js'></script>
 </body>
+
 </html>
