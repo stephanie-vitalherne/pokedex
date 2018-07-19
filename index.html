@@ -11,9 +11,9 @@
 
 <body>
 
-  <div class="row">
+  <div class="row " id="rowShow"> <!--row-hidden-->
     <div class="col m4"></div>
-    <div class="col m4 round" id="pokeCard" onload="reveal()">
+    <div class="col m4 round " id="pokeCard" onload="reveal()"> <!--hidden goes here-->
       <img src="images/bar-card.jpg" class='hoverable' id="cardfront">
       <div id="cardTop">
         <span id='pokeId'>456</span>
@@ -21,18 +21,24 @@
         <span id="pokeHp">150 HP</span>
       </div>
       <div class="cardStat">
-        <span id='length'></span>
-        <span id='width'></span>
+        <span id="species">Collective Pokemon |</span>
+        <span id='length'> 4' 03" |</span>
+        <span id='weight'> 211.6 lbs</span>
       </div>
       <div id="cardAb">
-        <p class="move"></p>
-        <p class="move"></p>
+        <div id="tin">
+          <p class="move">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedore</p>
+        </div>
+        <div class="divider"></div>
+        <div id="tin">
+          <p class="move">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedore</p>
+        </div>
       </div>
     </div>
     <div class="col m4"></div>
   </div>
 
-<a class="waves-effect waves-yellow yellow btn"><i class='large material-icons'>fingerprint</i></a>
+<button class="waves-effect waves-yellow yellow btn" id='bttn'><i class='large material-icons'>fingerprint</i></button>
   <script src='app.js'></script>
 </body>
 
