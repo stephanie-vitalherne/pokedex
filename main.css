@@ -36,7 +36,7 @@
   transition: opacity;
   transition-duration: 1.5s;
 }
-.hidden{
+.hidden, .span-hidden{
   opacity: 0;
   transition: opacity;
 }
@@ -87,3 +87,6 @@
   margin: 7px;
 }
 /* ========================================== */
+#bttn{
+  left: 48%;
+}
