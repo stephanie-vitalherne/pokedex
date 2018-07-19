@@ -1,16 +1,63 @@
 /* https://wireframe.cc/18BbEK */
 /* NAVBAR */
-h1{
-  
-}
-/* =============================== */
-/* POKEGRID */
-#pokegrid div.row{
-  margin-top: 50px;
+.nav{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.center-page{
-  margin: 0 auto;
-  float: none;
+h1{
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #33ffaa;
+  border: 2px solid #33ffaa;
+  padding: 15px 500px;
+  border-radius: 15px;
 }
-/* =============================== */
+/* ===================== */
+.empty{
+  padding: 5px;
+  margin: 50px;
+}
+/* POKE DISPLAY */
+#pokeDisplay{
+  position: relative;
+  left: 17%;
+  max-width: 50%;
+  height: auto;
+  border: 2px solid red;
+  margin: 10px 100px;
+}
+
+#pokeDisplay #pokeLeft{
+  background-color: #aaa;
+  text-align: center;
+  line-height: 5;
+}
+#pokeDisplay #pokeLeft span{
+  display: block;
+}
+
+#pokeDisplay #pokeImage{
+  max-width: 80%;
+  margin-left: 10.5%;
+}
+/* ================== */
+/* POKEGRID */
+.pGrid{
+  max-width: 50%;
+  height: auto;
+  background-color: #689689;
+  padding: 20px 100px;
+  border: 1px solid lightblue;
+}
+
+#pokeGrid div.pGrid #gridImage{
+  max-width: 50px;
+  border: 1px solid blue;
+}
+
+#pokeGrid div{
+  left: 50%;
+}
+/* ============================= */

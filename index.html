@@ -7,33 +7,42 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <h1 class='center-page'>Pokedex</h1>
-
-<!-- THIS WILL HOLD THE CURRENT POKEMON SELECTED FROM GRID -->
-   <div id="bigImage">
-    <div id="stat">
-      <span id='dexQuote'></span>
-      <span id='dexName'></span>
-      <span id='dexType'></span>
-      <span id='dexWeak'></span>
-    </div>
-    <div class="pokeImage">
-      <img src="" id="dexImage">
-    </div>
+  <div class="nav">
+      <h1>PokeDex</h1>
   </div>
-<!-- THIS WILL HOLD THE POKEMON IN GRID FORMAT -->
- <section id='pokegrid'>
-  <div class="row center-page">
-    <div class="col m4">
-      <a href="#">
-        <img src="images/689.png">
-        <span class='pokeName'>Barbaracle</span>
-      </a>
+<!-- ====================== -->
+  <div class="empty"></div> <!-- sneaky hack to get pokeDisplay and navbar to be spaced properly -->
+
+<!-- DISPLAY SECTION -->
+  <section id='pokeDisplay'>
+    <div class="row">
+      <div class="col l4" id='pokeLeft'>
+        <span id='pokeName'>Barbaracle</span>
+        <span id='pokeId'>#689</span>
+        <span id='pokeType'>Rock</span>
+      </div>
+      <div class="col l8" id='pokeRight'>
+        <img src="images/689.png" id="pokeImage">
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+<!-- ============================= -->
 
-
+<!-- POKEGRID SECTION -->
+  <section id='pokeGrid'>
+    <div class="row pGrid">
+      <div class="col l4">
+          <img src="images/772.png" id="gridImage">
+      </div>
+      <div class="col l4">
+        <img src="images/772.png" id="gridImage">
+      </div>
+      <div class="col l4">
+        <img src="images/772.png" id="gridImage">
+      </div>
+    </div>
+  </section>
+<!-- ==================================== -->
   <script src='app.js'></script>
 </body>
 </html>
