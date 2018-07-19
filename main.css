@@ -1,6 +1,5 @@
 .row{
   margin-top: 50px;
-
 }
 
 .round{
@@ -15,6 +14,7 @@
   padding: 0;
   border-radius: 31px;
   border: 1px solid red;
+  position: relative;
 }
 
 .card{
@@ -25,4 +25,35 @@
 
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* POKECARD FUNCION CLASSES */
+.hidden{
+  opacity: 0;
+  transition: opacity;
+}
+
+.reveal{
+  opacity: 1 !important;
+  transition: opacity;
+  transition-duration: 4.5s;
+}
+/* =============================== */
+
+#cardTop{
+  border: 1px solid pink;
+  position: absolute;
+   top: 22.9%;
+   left: 26%;
+}
+
+#pokeId, #pokeName{
+  border: 1px solid lightblue;
+  color: #fff;
+}
+
+#pokeHp{
+  float: right;
+  border: 1px solid green;
+  color: magenta;
+  margin-left: 115px;
 }
