@@ -1,16 +1,28 @@
-/* https://wireframe.cc/18BbEK */
-/* NAVBAR */
-h1{
-  
-}
-/* =============================== */
-/* POKEGRID */
-#pokegrid div.row{
+.row{
   margin-top: 50px;
+
 }
 
-.center-page{
-  margin: 0 auto;
-  float: none;
+.round{
+  border-radius: 25px;
+  border: 1px dashed #fe34dd;
 }
-/* =============================== */
+
+#cardfront{
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

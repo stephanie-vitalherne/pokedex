@@ -6,33 +6,16 @@
   <link rel="stylesheet" href="main.css" type='text/css'>
 </head>
 <body>
-  <!-- NAVBAR -->
-  <h1 class='center-page'>Pokedex</h1>
 
-<!-- THIS WILL HOLD THE CURRENT POKEMON SELECTED FROM GRID -->
-   <div id="bigImage">
-    <div id="stat">
-      <span id='dexQuote'></span>
-      <span id='dexName'></span>
-      <span id='dexType'></span>
-      <span id='dexWeak'></span>
+  <div class="row">
+    <div class="col m4"></div>
+    <div class="col m4 hoverable round hide"  id="pokeCard" onload="reveal()">
+      <img src="images/cardback.png" id="cardfront">
+      <span id='pokeId'></span>
+      <span id='pokeName'></span>
     </div>
-    <div class="pokeImage">
-      <img src="" id="dexImage">
-    </div>
+    <div class="col m4"></div>
   </div>
-<!-- THIS WILL HOLD THE POKEMON IN GRID FORMAT -->
- <section id='pokegrid'>
-  <div class="row center-page">
-    <div class="col m4">
-      <a href="#">
-        <img src="images/689.png">
-        <span class='pokeName'>Barbaracle</span>
-      </a>
-    </div>
-  </div>
-</section>
-
 
   <script src='app.js'></script>
 </body>
