@@ -1,4 +1,11 @@
 /* https://wireframe.cc/18BbEK */
+/* WHOLE SITE */
+body{
+  background-image: url('images/landing-copy copy.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ============ */
 /* NAVBAR */
 .nav{
   position: absolute;
@@ -16,7 +23,7 @@ h1{
 }
 /* ===================== */
 .empty{
-  padding: 5px;
+  padding: 20px;
   margin: 50px;
 }
 /* POKE DISPLAY */
@@ -32,7 +39,7 @@ h1{
 #pokeDisplay #pokeLeft{
   background-color: #aaa;
   text-align: center;
-  line-height: 5;
+  line-height: 2;
 }
 #pokeDisplay #pokeLeft span{
   display: block;
@@ -42,22 +49,24 @@ h1{
   max-width: 80%;
   margin-left: 10.5%;
 }
+
+.leftStyle{
+  font-family: fantasy;
+}
 /* ================== */
 /* POKEGRID */
 .pGrid{
   max-width: 50%;
   height: auto;
-  background-color: #689689;
   padding: 20px 100px;
-  border: 1px solid lightblue;
 }
 
 #pokeGrid div.pGrid #gridImage{
-  max-width: 50px;
-  border: 1px solid blue;
+  max-width: 120px;
+  background: blue;
 }
 
-#pokeGrid div{
-  left: 50%;
+.center{
+  justify-content: center;
 }
 /* ============================= */

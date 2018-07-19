@@ -8,7 +8,7 @@
 <body>
   <!-- NAVBAR -->
   <div class="nav">
-      <h1>PokeDex</h1>
+      <!-- <h1>PokeDex</h1> -->
   </div>
 <!-- ====================== -->
   <div class="empty"></div> <!-- sneaky hack to get pokeDisplay and navbar to be spaced properly -->
@@ -16,29 +16,34 @@
 <!-- DISPLAY SECTION -->
   <section id='pokeDisplay'>
     <div class="row">
-      <div class="col l4" id='pokeLeft'>
+      <div class="col l5" id='pokeLeft'>
+        <p class='leftStyle'>Pokemon</p>
         <span id='pokeName'>Barbaracle</span>
-        <span id='pokeId'>#689</span>
+        <p class='leftStyle'>Type</p>
         <span id='pokeType'>Rock</span>
+        <p class='leftStyle'>Abilities</p>
+        <span id='pokeAb'>Sniper</span>
       </div>
-      <div class="col l8" id='pokeRight'>
+      <div class="col l7" id='pokeRight'>
         <img src="images/689.png" id="pokeImage">
       </div>
     </div>
   </section>
+
+  <div class="pokeQuote"></div>
 <!-- ============================= -->
 
 <!-- POKEGRID SECTION -->
   <section id='pokeGrid'>
     <div class="row pGrid">
-      <div class="col l4">
-          <img src="images/772.png" id="gridImage">
+      <div class="col l4 center">
+          <img src="images/689.png" id="gridImage">
       </div>
-      <div class="col l4">
+      <div class="col l4 center">
         <img src="images/772.png" id="gridImage">
       </div>
-      <div class="col l4">
-        <img src="images/772.png" id="gridImage">
+      <div class="col l4 center">
+        <img src="images/799.png" id="gridImage">
       </div>
     </div>
   </section>
