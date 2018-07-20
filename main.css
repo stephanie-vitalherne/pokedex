@@ -1,72 +1,106 @@
-/* https://wireframe.cc/18BbEK */
-/* WHOLE SITE */
-body{
-  background-image: url('images/landing-copy copy.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* ============ */
-/* NAVBAR */
-.nav{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.row{
+  margin-top: 50px;
 }
 
-h1{
-  text-align: center;
-  font-size: 1.8em;
-  background-color: #33ffaa;
-  border: 2px solid #33ffaa;
-  padding: 15px 500px;
-  border-radius: 15px;
+.round{
+  border-radius: 25px;
 }
-/* ===================== */
-.empty{
-  padding: 20px;
-  margin: 50px;
-}
-/* POKE DISPLAY */
-#pokeDisplay{
+
+#cardfront{
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 31px;
   position: relative;
-  left: 17%;
-  max-width: 50%;
-  height: auto;
-  border: 2px solid red;
-  margin: 10px 100px;
 }
 
-#pokeDisplay #pokeLeft{
-  background-color: #aaa;
-  text-align: center;
-  line-height: 2;
-}
-#pokeDisplay #pokeLeft span{
-  display: block;
+.card{
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
-#pokeDisplay #pokeImage{
-  max-width: 80%;
-  margin-left: 10.5%;
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* POKECARD FUNCION CLASSES */
+.row-hidden{
+  opacity: 0;
+  transition: opacity;
 }
 
-.leftStyle{
-  font-family: fantasy;
+.row-reveal{
+  opacity: 1 !important;
+  transition: opacity;
+  transition-duration: 4.5s;
 }
-/* ================== */
-/* POKEGRID */
-.pGrid{
-  max-width: 50%;
-  height: auto;
-  padding: 20px 100px;
-}
-
-#pokeGrid div.pGrid #gridImage{
-  max-width: 120px;
-  background: blue;
+.hidden, .span-hidden{
+  opacity: 0;
+  transition: opacity;
 }
 
-.center{
-  justify-content: center;
+.reveal{
+  opacity: 1 !important;
+  transition: opacity;
+  transition-duration: 6s;
 }
-/* ============================= */
+/* =============================== */
+/* SPAN POSITIONS */
+#cardTop{
+  position: absolute;
+   top: 13.5%;
+   left: 42%;
+   font-size: 0.7em;
+}
+
+#pokeId, #pokeName{
+  border: 1px solid lightblue;
+  color: #fff;
+}
+
+#pokeHp{
+  float: right;
+  border: 1px solid green;
+  color: magenta;
+  margin-left: 100px;
+}
+
+.cardStat{
+  position: absolute;
+  border: 1px solid green;
+  top: 49%;
+  left: 40%;
+}
+
+#cardAb{
+  position: absolute;
+  border: 1px solid blue;
+  top: 52.2%;
+  width: 23%;
+  left: 39.3%;
+}
+
+#tin{
+  border: 1px solid orange;
+  margin: 7px;
+}
+/* ========================================== */
+/* BUTTON */
+#bttn, .spin{
+  left: 40.6%;
+}
+
+/* ============================================= */
+/* ANIMATED CSS */
+.flipInY{
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.fadeInDown{
+  -webkit-animation-duration: 4000ms;
+}
+/* =============================================
+/* https://wireframe.cc/18BbEK */
