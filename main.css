@@ -1,3 +1,9 @@
+html{
+  background-image: url('images/pokemon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .row{
   margin-top: 50px;
 }
