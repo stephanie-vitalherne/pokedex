@@ -21,5 +21,6 @@ function reveal(pokeCard){
   pkcd.classList.add('reveal');
   cardfront = document.getElementById('cardfront');
   cardfront.src = 'images/cardback.png';
+  cardfront.setAttribute('class','flipInY');
 }
 // ======================================================

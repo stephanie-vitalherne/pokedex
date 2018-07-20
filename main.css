@@ -90,9 +90,8 @@
 /* BUTTON */
 #bttn, .spin{
   left: 40.6%;
-  background-color:/* #192653 */;
 }
-<<<<<<< HEAD
+
 /* ============================================= */
 /* ANIMATED CSS */
 .flipInY{
@@ -103,79 +102,5 @@
 .fadeInDown{
   -webkit-animation-duration: 4000ms;
 }
-/* =============================================== */
-=======
-=======
+/* =============================================
 /* https://wireframe.cc/18BbEK */
-/* WHOLE SITE */
-body{
-  background-image: url('images/landing-copy copy.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* ============ */
-/* NAVBAR */
-.nav{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-h1{
-  text-align: center;
-  font-size: 1.8em;
-  background-color: #33ffaa;
-  border: 2px solid #33ffaa;
-  padding: 15px 500px;
-  border-radius: 15px;
-}
-/* ===================== */
-.empty{
-  padding: 20px;
-  margin: 50px;
-}
-/* POKE DISPLAY */
-#pokeDisplay{
-  position: relative;
-  left: 17%;
-  max-width: 50%;
-  height: auto;
-  border: 2px solid red;
-  margin: 10px 100px;
-}
-
-#pokeDisplay #pokeLeft{
-  background-color: #aaa;
-  text-align: center;
-  line-height: 2;
-}
-#pokeDisplay #pokeLeft span{
-  display: block;
-}
-
-#pokeDisplay #pokeImage{
-  max-width: 80%;
-  margin-left: 10.5%;
-}
-
-.leftStyle{
-  font-family: fantasy;
-}
-/* ================== */
-/* POKEGRID */
-.pGrid{
-  max-width: 50%;
-  height: auto;
-  padding: 20px 100px;
-}
-
-#pokeGrid div.pGrid #gridImage{
-  max-width: 120px;
-  background: blue;
-}
-
-.center{
-  justify-content: center;
-}
-/* ============================= */
->>>>>>> 4a00facacd0d301e15bd240b135c29d51f4f9beb
