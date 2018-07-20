@@ -11,7 +11,7 @@ function reveal(pokeCard){
   pkcd.classList.remove('hidden');
   pkcd.classList.add('reveal');
   cardfront = document.getElementById('cardfront');
-  cardfront.src = 'images/bar-card-empty.jpg';
+  cardfront.src = 'images/cardback.png';
   cardfront.setAttribute('class','flipInY');
 }
 // ======================================================
