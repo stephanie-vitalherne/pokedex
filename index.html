@@ -6,42 +6,51 @@
   <title>Pokedex - Vital-Herne, Stephanie</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link rel="stylesheet" href="main.css" type='text/css'>
 </head>
 
 <body>
 
-  <div class="row " id="rowShow"> <!--row-hidden-->
+  <div class="row " id="rowShow">
+    <!--row-hidden-->
     <div class="col m4"></div>
-    <div class="col m4 round " id="pokeCard" onload="reveal()"> <!--hidden goes here-->
-      <img src="images/cardback.png" class='hoverable' id="cardfront">
-      <div class="span-hidden">
-      <div id="cardTop">
-        <span id='pokeId'>456</span>
-        <span id='pokeName'>Barbarcale</span>
-        <span id="pokeHp">150 HP</span>
-      </div>
-      <div class="cardStat">
-        <span id="species">Collective Pokemon |</span>
-        <span id='length'> 4' 03" |</span>
-        <span id='weight'> 211.6 lbs</span>
-      </div>
-      <div id="cardAb">
-        <div id="tin">
-          <p class="move">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedore</p>
+    <div class="col m4 round hidden" id="pokeCard" onload="reveal()">
+      <!--hidden goes here-->
+      <img src="" class='hoverable animated ' id="cardfront"><!--flipOutY-->
+      <div class="span-hidden" id='pkecd'>
+        <div id="cardTop">
+          <span id='pokeId'></span>
+          <span id='pokeName'></span>
+          <span id="pokeHp"></span>
         </div>
-        <div class="divider"></div>
-        <div id="tin">
-          <p class="move">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sedore</p>
+        <div class="cardStat">
+          <span id="species"> | </span>
+          <span id='length'> |</span>
+          <span id='weight'> </span>
+        </div>
+        <div id="cardAb">
+          <div id="tin">
+            <p class="move"></p>
+          </div>
+          <div class="divider"></div>
+          <div id="tin">
+            <p class="move"></p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <div class="col m4"></div>
   </div>
 
-<button class="waves-effect waves-yellow yellow btn" id='bttn'><i class='large material-icons'>fingerprint</i></button>
+  <div class="pkbtn col m4" id='crdBtn'>
+    <button class="waves-effect waves-yellow yellow btn" id='bttn'><i class='large material-icons'>fingerprint</i></button>
+    <button class="waves-effect waves-yellow blue btn spin" id='red'><i class='large material-icons'>fingerprint</i></button>
+    <button class="waves-effect waves-yellow green btn spin"><i class='large material-icons'>fingerprint</i></button>
+    <button class="waves-effect waves-yellow red btn spin"><i class='large material-icons'>fingerprint</i></button>
+  </div>
   <script src='app.js'></script>
+  <script src='ohboy.js'></script>
 </body>
 
 </html>

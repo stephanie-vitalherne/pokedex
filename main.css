@@ -34,7 +34,7 @@
 .row-reveal{
   opacity: 1 !important;
   transition: opacity;
-  transition-duration: 1.5s;
+  transition-duration: 4.5s;
 }
 .hidden, .span-hidden{
   opacity: 0;
@@ -44,7 +44,7 @@
 .reveal{
   opacity: 1 !important;
   transition: opacity;
-  transition-duration: 4.5s;
+  transition-duration: 6s;
 }
 /* =============================== */
 /* SPAN POSITIONS */
@@ -87,7 +87,19 @@
   margin: 7px;
 }
 /* ========================================== */
-#bttn{
-  left: 48%;
+/* BUTTON */
+#bttn, .spin{
+  left: 40.6%;
   background-color:/* #192653 */;
 }
+/* ============================================= */
+/* ANIMATED CSS */
+.flipInY{
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.fadeInDown{
+  -webkit-animation-duration: 4000ms;
+}
+/* =============================================== */
