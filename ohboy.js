@@ -12,16 +12,16 @@ class Pokemon {
 poke1 = new Pokemon()
 
 function loadPokemon(poke1) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      var myObj = JSON.parse(this.responseText);
+      var data = JSON.parse(this.responseText);
        poke1 = new Pokemon (
-        myObj.id,
-        myObj.name,
-        myObj.stats[5].base_stat,
+        data['id'],
+        data['name'],
+        data.stats[5].base_stat,
 
-        myObj.abilities[0].ability.name,
+        data.abilities[0].ability.name,
       );
       document.getElementById('pokeId').innerHTML = poke1.id;
       document.getElementById('pokeName').innerHTML = poke1.name;
@@ -29,9 +29,9 @@ function loadPokemon(poke1) {
       document.getElementById('abil').innerHTML = poke1.ability;
   }
 
-  // xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/484", true);
-  xhttp.open("GET", "https://raw.githubusercontent.com/stephanie-vitalherne/data/master/palkia.json", true);
-  xhttp.send();
+  // request.open("GET", "https://pokeapi.co/api/v2/pokemon/484", true);
+  request.open("GET", "https://raw.githubusercontent.com/stephanie-vitalherne/data/master/palkia.json", true);
+  request.send();
 }
 loadPokemon(poke1);
 }
@@ -55,7 +55,7 @@ function loadPokemon(poke2) {
       document.getElementById('abil').innerHTML = poke2.ability;
   }
 
-  // xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/484", true);
+  // xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/772", true);
   xhttp.open("GET", "https://raw.githubusercontent.com/stephanie-vitalherne/data/master/type-null.json", true);
   xhttp.send();
 }
@@ -65,7 +65,7 @@ loadPokemon(poke1);
 
 poke3 = new Pokemon()
 
-function loadPokemon(poke1) {
+function loadPokemon(poke3) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -83,7 +83,7 @@ function loadPokemon(poke1) {
       document.getElementById('abil').innerHTML = poke3.ability;
   }
 
-  // xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/484", true);
+  // xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/689", true);
   xhttp.open("GET", "https://raw.githubusercontent.com/stephanie-vitalherne/data/master/barbaracle.json", true);
   xhttp.send();
 }
