@@ -1,4 +1,5 @@
 const url = 'https://raw.githubusercontent.com/stephanie-vitalherne/data/master/palkia.json';
+// const url = 'https://pokeapi.co/api/v2/pokemon/484/';
 
 function Get(url){
   var request = new XMLHttpRequest();
@@ -11,6 +12,6 @@ console.log("this is " + jsonURL.name);
 
 document.getElementById('pokeId').innerHTML = jsonURL.id;
 document.getElementById('pokeName').innerHTML = jsonURL.name;
-document.getElementById('pokeHp').innerHTML = jsonURL.stats[5].base_stat;
+document.getElementById('pokeHp').innerHTML = jsonURL.stats[5].base_stat + ' HP';
 document.getElementById('move').innerHTML = jsonURL.moves[4].move.name;
 document.getElementById('abil').innerHTML = jsonURL.abilities[0].ability.name;

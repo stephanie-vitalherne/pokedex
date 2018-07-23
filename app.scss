@@ -65,34 +65,29 @@ html{
 }
 
 #pokeId, #pokeName{
-  // border: 1px solid lightblue;
-  color: #fff;
+  font-size: 1.6em;
 }
 
 #pokeHp{
   float: right;
-  // border: 1px solid green;
-  color: magenta;
+  font-size: 1.2em;
   margin-left: 100px;
 }
 
 .cardStat{
   position: absolute;
-  // border: 1px solid green;
   top: 49%;
   left: 40%;
 }
 
 #cardAb{
   position: absolute;
-  // border: 1px solid blue;
   top: 52.2%;
   width: 23%;
   left: 39.3%;
 }
 
 #tin{
-  // border: 1px solid orange;
   margin: 7px;
 }
 /* ========================================== */

@@ -54,11 +54,10 @@ html {
   font-size: 0.7em; }
 
 #pokeId, #pokeName {
-  color: #fff; }
+  font-size: 1.6em; }
 
 #pokeHp {
   float: right;
-  color: magenta;
   margin-left: 100px; }
 
 .cardStat {
