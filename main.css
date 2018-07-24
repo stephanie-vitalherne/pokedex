@@ -98,7 +98,9 @@ html {
    border-radius: 8px;
 }
 
-.layout {
+
+/* try this grid approach for placement of your pulled API data */
+/* .layout {
  display: grid;
  grid-template-columns: repeat(8, 1fr);
  grid-gap: 10px;
@@ -129,4 +131,4 @@ html {
 
 .dexp3 {
  grid-area: ii;
-}
+} */
