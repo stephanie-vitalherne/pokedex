@@ -31,6 +31,7 @@ function loadPokemon(poke1){
     jsonURL['name'],
     jsonURL.stats[5].base_stat,
     jsonURL.abilities[0].ability.name
+
   );
 
 document.getElementById('pokeId').innerHTML = poke1.id;
@@ -98,6 +99,7 @@ function loadPokemon(poke2) {
       document.getElementById('pokeName').innerHTML = poke2.name;
       document.getElementById('pokeHp').innerHTML = poke2.hp;
       document.getElementById('abil').innerHTML = poke2.ability;
+
   }
 
   // xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/772", true);
