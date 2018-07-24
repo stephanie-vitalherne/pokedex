@@ -37,7 +37,7 @@ html {
   transition-duration: 4.5s; }
 
 .hidden, .span-hidden {
-  opacity: 0;
+  opacity: 1;
   transition: opacity; }
 
 .reveal {
@@ -54,11 +54,10 @@ html {
   font-size: 0.7em; }
 
 #pokeId, #pokeName {
-  color: #fff; }
+  font-size: 1.6em; }
 
 #pokeHp {
   float: right;
-  color: magenta;
   margin-left: 100px; }
 
 .cardStat {
