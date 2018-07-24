@@ -1,5 +1,5 @@
-const url = 'https://raw.githubusercontent.com/stephanie-vitalherne/data/master/palkia.json';
-// const url = 'https://pokeapi.co/api/v2/pokemon/484/';
+// const url = 'https://raw.githubusercontent.com/stephanie-vitalherne/data/master/palkia.json';
+const url = 'https://pokeapi.co/api/v2/pokemon/484/';
 
 function Get(url){
   var request = new XMLHttpRequest();
