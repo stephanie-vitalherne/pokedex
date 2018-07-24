@@ -92,3 +92,41 @@ html {
 /* https://wireframe.cc/18BbEK */
 
 /*# sourceMappingURL=main.css.map */
+
+
+.layout {
+   border-radius: 8px;
+}
+
+.layout {
+ display: grid;
+ grid-template-columns: repeat(8, 1fr);
+ grid-gap: 10px;
+ grid-auto-rows: 150px;
+ grid-template-areas:
+   “a b c d e f g h”
+   “i j k l m n o p”
+   “q r s t u v w x”
+   “y z aa bb cc dd ee ff”
+   “gg hh ii jj kk ll mm nn”;
+}
+
+
+.stat {
+ grid-area: m;
+}
+
+.pokepic {
+ grid-area: s;
+}
+.dexp {
+ grid-area: gg;
+}
+
+.dexp2 {
+ grid-area: hh;
+}
+
+.dexp3 {
+ grid-area: ii;
+}
