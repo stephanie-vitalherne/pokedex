@@ -12,6 +12,8 @@ function reveal(pokeCard){
   pkcd.classList.add('reveal');
   cardfront = document.getElementById('cardfront');
   cardfront.src = 'images/cardback.png';
+  pkecd = document.getElementById('pkecd');
+  pkecd.classList.add('span-hidden');
   cardfront.setAttribute('class','flipInY');
 }
 // ======================================================
@@ -21,5 +23,5 @@ function reveal(pokeCard){
 //   document.getElementById('cardfront').src = 'images/palkia-card-empty.jpg';
 //   document.getElementById('cardfront').classList.add('flipInY');
 //   document.getElementById('pkecd').classList.remove('span-hidden');
-
+// }
 //
