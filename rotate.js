@@ -11,7 +11,7 @@ function render2(){
   document.getElementById('cardfront').classList.add('flipInY');
   document.getElementById('pkecd').classList.remove('span-hidden');
 
-  // document.getElementById('green').addEventListener('click', loadPokemon());
+  document.getElementById('green').addEventListener('click', loadPokemon());
 }
 
 function render3(){
@@ -19,5 +19,5 @@ function render3(){
   document.getElementById('cardfront').classList.add('flipInY');
   document.getElementById('pkecd').classList.remove('span-hidden');
 
-  // document.getElementById('red').addEventListener('click', loadPokemon());
+  document.getElementById('red').addEventListener('click', loadPokemon());
 }

@@ -15,13 +15,10 @@ function reveal(pokeCard){
   pkecd = document.getElementById('pkecd');
   pkecd.classList.add('span-hidden');
   cardfront.setAttribute('class','flipInY');
+
+  setTimeout(function(){
+    cardfront = document.getElementById('cardfront');
+    cardfront.classList.remove('flipInY');
+  }, 3550);
 }
 // ======================================================
-
-
-// function render(){
-//   document.getElementById('cardfront').src = 'images/palkia-card-empty.jpg';
-//   document.getElementById('cardfront').classList.add('flipInY');
-//   document.getElementById('pkecd').classList.remove('span-hidden');
-// }
-//
