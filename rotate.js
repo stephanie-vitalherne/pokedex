@@ -16,7 +16,7 @@ if('click' === blue){
 }
 
 function render2() {
-  document.getElementById('cardfront').src = 'images/null-card-empty.jpg';
+  document.getElementById('cardfront').src = 'images/type-null-card-empty.jpg';
   document.getElementById('cardfront').classList.add('flipInY');
   document.getElementById('pkecd').classList.remove('span-hidden');
 
@@ -28,7 +28,7 @@ function render2() {
 }
 
 function render3() {
-  document.getElementById('cardfront').src = 'images/bar-card-empty.jpg';
+  document.getElementById('cardfront').src = 'images/barbaracle-card-empty.jpg';
   document.getElementById('cardfront').classList.add('flipInY');
   document.getElementById('pkecd').classList.remove('span-hidden');
 
