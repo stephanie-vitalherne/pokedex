@@ -1,14 +1,9 @@
-function render(pokemonName) {
-  document.getElementById('cardfront').src = `images/${pokemonName}-card-empty.jpg`;
+function render() {
+  document.getElementById('cardfront').src = 'images/palkia-card-empty.jpg';
   document.getElementById('cardfront').classList.add('flipInY');
   document.getElementById('pkecd').classList.remove('span-hidden');
-  blue = document.getElementById('blue');
-  green = document.getElementById('green');
-  red = document.getElementById('red');
-// if you click on this color that load this pokemon
-if('click' === blue){
-  blue.addEventListener('click', loadPokemon("${pokemonName}"));
-}
+
+  document.getElementById('blue').addEventListener('click', loadPokemon('palkia'));
   setTimeout(function() {
     cardfront = document.getElementById('cardfront');
     cardfront.classList.remove('flipInY');
@@ -38,3 +33,24 @@ function render3() {
     cardfront.classList.remove('flipInY');
   }, 3550);
 }
+
+
+
+// POSSIBLE AUTOMATED RENDER
+
+// function render(pokemonName) {
+//   document.getElementById('cardfront').src = `images/${pokemonName}-card-empty.jpg`;
+//   document.getElementById('cardfront').classList.add('flipInY');
+//   document.getElementById('pkecd').classList.remove('span-hidden');
+//   blue = document.getElementById('blue');
+//   green = document.getElementById('green');
+//   red = document.getElementById('red');
+// // if you click on this color that load this pokemon
+// if('click' === blue){
+//   blue.addEventListener('click', loadPokemon("${pokemonName}"));
+// }
+//   setTimeout(function() {
+//     cardfront = document.getElementById('cardfront');
+//     cardfront.classList.remove('flipInY');
+//   }, 3550);
+// }

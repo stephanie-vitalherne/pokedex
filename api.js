@@ -39,7 +39,7 @@ function loadPokemon(pokemonName) {
     if (this.readyState == 4 && this.status == 200) {
       var response = JSON.parse(this.responseText);
 
-      poke1 = new Pokemon(//i'm not sure if still need this to be poke1
+      poke1 = new Pokemon(//i'm not sure if i still need this to be named poke1
         response['id'],
         response['name'],
         response.stats[5].base_stat, //when using a class object, you can define what you're grabbing when making a new class, but when assigning the information, use the variables you gave in the class skeleton
@@ -56,11 +56,11 @@ function loadPokemon(pokemonName) {
       allPokemon.push(poke1); //this line pushes the data to the empty array provided above
     }
   };
-  request.open("GET", `https://raw.githubusercontent.com/stephanie-vitalherne/data/master/${pokemonName}.json`, true);//the backticks allowed for the onclick with the loadPokemon attached to it to load the correct pokemon at the correct time
+  request.open("GET", `https://raw.githubusercontent.com/stephanie-vitalherne/data/master/${pokemonName}.json`, true);//the backticks allowed for the onclick with the loadPokemon attached to it to load the correct pokemon at the correct time and be on its way to being automated
   request.send();
 }
 loadPokemon();
 
-// function for cardChange
+// function for cardChange so the card can change when the type is compared the one of the types the pokemon possesses
 
-// function for randomId?
+// function for randomId? so that the pokemon can be switched out automatically
