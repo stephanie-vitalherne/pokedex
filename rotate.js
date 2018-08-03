@@ -36,6 +36,10 @@ function render3() {
 
 
 
+
+
+
+
 // POSSIBLE AUTOMATED RENDER
 
 // function render(pokemonName) {

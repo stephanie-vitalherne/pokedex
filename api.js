@@ -59,7 +59,7 @@ function loadPokemon(pokemonName) {
   request.open("GET", `https://raw.githubusercontent.com/stephanie-vitalherne/data/master/${pokemonName}.json`, true);//the backticks allowed for the onclick with the loadPokemon attached to it to load the correct pokemon at the correct time and be on its way to being automated
   request.send();
 }
-loadPokemon();
+loadPokemon(pokemonName);
 
 // function for cardChange so the card can change when the type is compared the one of the types the pokemon possesses
 
